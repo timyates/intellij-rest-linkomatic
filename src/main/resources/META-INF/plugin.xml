@@ -1,0 +1,27 @@
+<idea-plugin>
+    <id>com.bloidonia.intellij-rest-linkomatic</id>
+    <name>IntelliJ REST linkomatic</name>
+    <vendor email="tim@bloidonia.com" url="http://www.bloidonia.com">Bloidonia Ltd.</vendor>
+
+    <description><![CDATA[
+    Generate links to share code locations via the IntelliJ REST service.
+    ]]></description>
+
+    <depends>com.intellij.modules.lang</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+    </extensions>
+
+    <actions>
+        <group>
+            <action id="linkomatic.link"
+                    class="com.bloidonia.intellij.linkomatic.CopyAction"
+                    text="Copy REST link"/>
+            <add-to-group group-id="EditorPopupMenu" anchor="first"/>
+            <add-to-group group-id="ProjectViewPopupMenu"
+                          relative-to-action="CutCopyPasteGroup"
+                          anchor="after"/>
+        </group>
+    </actions>
+
+</idea-plugin>
