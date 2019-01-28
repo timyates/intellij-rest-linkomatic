@@ -1,2 +1,2 @@
-rootProject.name = "intellij-rest-linkomatic"
+rootProject.name = "rest-copier"
 

@@ -1,6 +1,6 @@
 <idea-plugin>
     <id>com.bloidonia.intellij-rest-linkomatic</id>
-    <name>IntelliJ REST linkomatic</name>
+    <name>REST link copier</name>
     <vendor email="tim@bloidonia.com" url="http://www.bloidonia.com">Bloidonia Ltd.</vendor>
 
     <description><![CDATA[
