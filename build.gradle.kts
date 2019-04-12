@@ -6,7 +6,7 @@ plugins {
 }
 
 group = "com.bloidonia"
-version = "1.0"
+version = "1.1"
 
 repositories {
     mavenCentral()
@@ -28,5 +28,6 @@ tasks {
 }
 
 intellij {
-    this.version = "2018.3.3"
+    version = "2019.1"
+    updateSinceUntilBuild = false
 }

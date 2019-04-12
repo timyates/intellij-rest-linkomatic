@@ -2,7 +2,7 @@
     <id>com.bloidonia.intellij-rest-linkomatic</id>
     <name>REST link copier</name>
     <vendor email="tim@bloidonia.com" url="http://www.bloidonia.com">Bloidonia Ltd.</vendor>
-
+    <idea-version since-build="181" until-build="191.*"/>
     <description><![CDATA[
     Generate links to share code locations via the IntelliJ REST service.
     ]]></description>
